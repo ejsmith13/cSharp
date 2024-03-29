@@ -1,52 +1,35 @@
-# Prerequisites
-*.d
+# Ignore Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln.docstates
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Ignore build output
+bin/
+obj/
+Debug/
+Release/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Ignore NuGet packages
+packages/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore user-specific files
+*.userprefs
+*.suo
+*.user
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore ReSharper files
+_ReSharper*/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Ignore Visual Studio Code settings
+.vscode/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Ignore .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore Windows-specific files
+Thumbs.db
+Desktop.ini
